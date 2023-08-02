@@ -26,5 +26,6 @@ export default function WelcomeHeader() {
             </div>
           </nav>
         </header>
-    );
+    )
+    
 }
