@@ -1,15 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to right,
-      transparent,
-      black
-    )
-    rgb(116, 114, 114)
-}

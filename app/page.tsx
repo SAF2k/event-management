@@ -1,9 +1,11 @@
 import WelcomeHeader from './components/welcome-header'
+import WelcomeHome from './components/welcome-page';
 
 export default function Home() {
   return (
-    <div className="bg-black">
+    <>
       <WelcomeHeader />
-    </div>
+      <WelcomeHome />
+    </>
   );
 }
