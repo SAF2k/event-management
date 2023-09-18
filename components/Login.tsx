@@ -119,16 +119,6 @@ export default function Login() {
                 disabled={loading}
                 className="inline-flex w-full items-center justify-center rounded-md bg-primary px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-primary/80 disabled:opacity-50"
               >
-                {loading && (
-                  <span className="mr-2">
-                    <Image
-                      src="/loading.svg"
-                      alt="loading"
-                      width={20}
-                      height={20}
-                    />
-                  </span>
-                )}
                 Sign in
               </button>
             </div>

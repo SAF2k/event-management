@@ -59,7 +59,7 @@ export class AppwriteService {
     try {
       return account.get();
     } catch (error) {
-      console.log("getcurrentUser error: " + error);
+      console.log("getCurrentUser error: " + error);
     }
 
     return null;
